@@ -1,6 +1,56 @@
-body{
-    background: url( Mysite/img/background3.jpg)
+body {
+    background: url("Mysite/img/background3.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
-.title{
-    margin: 0 auto;
+
+.title {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 25px;
+    color: #500c7e;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #268996;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a7a415;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    color: grey;
 }
