@@ -24,13 +24,27 @@ h1 {
     margin: 0;
 }
 
-h2 {
+.intro {
     margin-top: 20px;
+    font-size: 30px;
+
+}
+.list{
+    text-align: left;
+    font-size: 35px;
 }
 
-h3 {
+.info {
     font-size: 25px;
     color: #500c7e;
+}
+
+h2 , h3{
+    font-size: 40px;
+}
+.design{
+    font-size: 25px;
+
 }
 
 button {
