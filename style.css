@@ -2,6 +2,26 @@ body {
     background: url("Mysite/img/background3.jpg") no-repeat center center fixed;
     background-size: cover;
 }
+.menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: gray;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    border-bottom: 5px solid gray;
+}
+.menu li{
+    float: left;
+}
+.Home{
+    font-size: 30px;
+}
 
 .title {
     margin: 0;
@@ -39,14 +59,17 @@ h1 {
     color: #500c7e;
 }
 
-h2 , h3{
+h2 , h3, h4, h5, h6{
     font-size: 40px;
 }
 .design{
     font-size: 25px;
 
 }
-
+.models{
+    width: 800px;
+    height: 480px;
+}
 button {
     padding: 15px 30px;
     background-color: #268996;
