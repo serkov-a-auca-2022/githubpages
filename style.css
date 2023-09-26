@@ -1,6 +1,7 @@
 body {
     background: url("Mysite/img/background3.jpg") no-repeat center center fixed;
     background-size: cover;
+    margin: 0px;
 }
 .menu{
     list-style-type: none;
