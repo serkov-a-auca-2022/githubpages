@@ -92,3 +92,15 @@ img {
 address {
     color: grey;
 }
+.toggle {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(28, 28, 94);
+  }
+
+  .panel, .panel2, .panel3,.panel4, .panel5, .panel6, .panel7, .panel8, .panel9{
+    display: none;
+    font-size: 25px;
+    background-color: rgb(169, 189, 182);
+  }

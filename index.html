@@ -8,19 +8,18 @@
 </head>
 <body>
   <header>
-   
+    <ul class="menu">
+      <li><a href="#Title">Home</a></li>
+      <li><a href="#designer">Designer</a></li>
+      <li><a href="#versions">Versions</a></li>
+      <li><a href="#speed">Speed</a></li>
+      <li><a href="#location">Production</a></li>
+      <li><a href="#owners">Owners</a></li>
+    </ul>
     <div id="Title" class="title">
       <h1>This is an info page about Porsche 911 Turbo S</h1>
     </div>
   </header>
-  <ul class="menu">
-    <li><a href="#Title">Home</a></li>
-    <li><a href="#designer">Designer</a></li>
-    <li><a href="#versions">Versions</a></li>
-    <li><a href="#speed">Speed</a></li>
-    <li><a href="#location">Production</a></li>
-    <li><a href="#owners">Owners</a></li>
-  </ul></br>
   <main>
     <p class="intro">The Porsche 911 was first unveiled to the public on 12 September 1963 when it was launched at the Frankfurt International Motor Show. Full production of the car began a year later in September 1964 at the Porsche factory in Zuffenhausen.</p>
     <p class="info"><span style="color: rgb(112, 12, 126)">The 2022 Porsche 911 Turbo and Turbo S is powered by a 3.7-liter twin-turbocharged flat-six engine that generates up to 640 horsepower in powerful variants and 572 horsepower in the regular Turbo model. All-wheel drive is standard, and the shifts are taken care of by an eight-speed dual-clutch automatic transmission.</span></p>
@@ -32,16 +31,27 @@
          height="auto"
     />
     <img src="Mysite/img/Porsche_911_Turbo_S_2024_1.jpg"
-    alt="Porsche 911 is a legendary car!"
+    alt="Porsche 911 is one of the most beautiful cars in the world!"
     width="450"
     height="auto"
 />
 <img src="Mysite/img/porsche911TURBOS.jpg"
-alt="Porsche 911 is german legend!"
+alt="Porsche 911 is one of the most beautiful cars in the world!"
 width="450"
 height="auto"
 />
 <div id="designer"> 
+  <button class="toggle" onclick="toggle()"> Learn more</button>
+  <div class="panel" id="panel">
+    Model. Porsche 911 Carrera 4 Coupe (992)
+    Model Years. 2020 - Present.
+    Engine. 3.0 L Turbocharged Flat 6.
+    Power. 379 bhp @ 6500 rpm.
+    Torque. 331 ft lbs @ 1900 rpm.
+    0 - 60 mph. 3.8 seconds.
+    Top Speed. 180 mph.
+    Price Starting At. US$109,850.  </div>
+  
   <h2> Who designed the Porsche 911?</h2>
   <p class="design"> The first ever Porsche 911 was designed by F.A. Porsche – son of the founder of the company, Ferry Porsche – and his team. The original 911 had an air-cooled flat-six engine instead of the four-cylinder boxer engine of the 356. It developed 130PS, could accelerate from 0-100km/h in 9.1 seconds and had a top speed of 210km/h. These were hugely impressive figures for a production sportscar at the time. Although there have been many versions of the 911 since then, much has remained the same, like its 2 + 2 seating layout and rear engine position.</p>
 <img src="Mysite/img/First911.jpg"
@@ -56,27 +66,69 @@ height="auto"
   <li> <strong>Original 911 </strong>(1963-1973) </li>
   <img class="models" src="Mysite/img/original911.jpg"
   alt="The original version of Porsche 911">
+  <button class="toggle"  onclick="toggle2()"> Learn more</button>
+  <div class="panel2" id="panel2">
+    The original 911 had an air-cooled flat-six engine instead of the four-cylinder boxer engine of the 356. It developed 130PS, could accelerate from 0-100km/h in 9.1 seconds and had a top speed of 210km/h. These were hugely impressive figures for a production sportscar at the time.
+  </div>
    <li><strong>G series </strong>(1974-1989)</li>
    <img class="models" src="Mysite/img/GSeries911.jpg"
    alt="Porsche G series">
+   <button class="toggle" onclick="toggle3()"> Learn more</button>
+  <div class="panel3" id="panel3">
+    The six-cylinder engine, meanwhile, was enlarged to 3.2 litres and produced 231 PS when not fitted with a catalytic converter. For the US models, with their stricter emissions regulations, Porsche installed a catalytic converter, resulting in a power figure of 207 PS.  </div>
   <li> <strong>964 </strong>(1988-1994)</li>
   <img class="models" src="Mysite/img/Type964.jpg"
   alt="Porsche 964">
+  <button class="toggle" onclick="toggle4()"> Learn more</button>
+  <div class="panel4" id="panel4">
+    Engine design: Air/oil-cooled, horizontally opposed, dry-sump lubricated, rear-mounted
+    Engine displacement: 3,600 cc (220 cu in)
+    Cylinders: Six
+    Bore and stroke: 100 x 76.4 mm (3.94 x 3.01 in)
+    Compression ratio: 11.3 : 1
+    Fuel/ignition: Electronic fuel injection, DME controller, with twin-spark with knock regulation
+    Crankshaft: Forged, seven main bearings
+    Block and heads: aluminum alloy
+    Valve Train: Single Overhead cam (SOHC)- one per bank, double chain drive
+    Power: 250 PS (184 kW; 247 hp) at 6,100 rpm
+    Torque: 310 N⋅m (229 lb⋅ft) at 4,800 rpm
+    Engine speed limitation: 6,700 rpm  </div>
   <li> <strong>993 </strong>(1993-1998) </li>
   <img class="models" src="Mysite/img/Porsche993s.jpg"
   alt="Porsche 993">
+  <button class="toggle" onclick="toggle5()"> Learn more</button>
+  <div class="panel5" id="panel5">
+    The six-cylinder engine, meanwhile, was enlarged to 3.2 litres and produced 231 PS when not fitted with a catalytic converter. For the US models, with their stricter emissions regulations, Porsche installed a catalytic converter, resulting in a power figure of 207 PS.  </div>
   <li> <strong>996 </strong>(1997-2005) </li>
   <img class="models" src="Mysite/img/Porsche996.jpg"
   alt="Porsche 996">
+  <button class="toggle" onclick="toggle6()"> Learn more</button>
+  <div class="panel6" id="panel6">
+    In 2000, Porsche introduced the 996 Turbo, equipped with a four-wheel-drive system and a 3.6-litre, twin-turbocharged and intercooled flat-six engine generating a maximum power output of 309 kW (420 PS; 414 hp).  </div>
   <li> <strong>997 </strong>(2004-2012) </li>
   <img class="models" src="Mysite/img/Porsche997s.jpg"
   alt="Porsche 997">
+  <button class="toggle" onclick="toggle7()"> Learn more</button>
+  <div class="panel7" id="panel7">
+    Porsche 911 Carrera (997) (2005 – 2008)
+The base Carrera has essentially the same 3.6 L flat-6 engine that its predecessor, the Type 996 Carrera used, now good for 321 bhp @ 6800 rpm and with torque of 273 ft lbs @ 4250 rpm.  </div>
   <li> <strong>991 </strong>(2011-2019)</li>
   <img class="models" src="Mysite/img/Porsche991s.jpg"
   alt="Porsche 991">
+  <button class="toggle" onclick="toggle8()"> Learn more</button>
+  <div class="panel8" id="panel8">
+    Engine	3.0 L twin-turbocharged Flat-6 3.4 L Flat-6 3.8 L Flat-6 3.8 L twin-turbocharged Flat-6 4.0 L Flat-6
+Transmission	6-speed manual 7-speed manual 7-speed PDK
+Dimensions
+Wheelbase	2,450 mm (96.5 in) 2,457 mm (96.7 in) (GT3)  </div>
   <li> <strong>992 </strong>(2018-present)</li>
   <img class="models" src="Mysite/img/Porsche992.jpg"
   alt="Porsche 992">
+  <button class="toggle" onclick="toggle9()"> Learn more</button>
+  <div class="panel9" id="panel9">
+    3.0-liter flat-six engine
+Porsche 911 Carrera 4 Coupe (992) (2020 – Present)
+It gets the same 379-hp, twin-turbo 3.0-liter flat-six engine. The twin-turbocharged 3.0-liter flat-six has 379 hp.  </div>
   <p><a class="Home" href="#Title">Home</a></p>
   </ul>
 </div>
@@ -108,6 +160,88 @@ alt="The 2023 Porsche 911 Turbo S (type 992) is the fastest-ever 911 ever built 
 <script type="text/javascript">
   window.onbeforeunload = function () {
     window.scrollTo(0, 0);
+  }
+</script>
+
+<script>
+  function toggle() {
+    if (document.getElementById("panel").style.display == "block") {
+      document.getElementById("panel").style.display = "none"
+    } else {
+      document.getElementById("panel").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle2() {
+    if (document.getElementById("panel2").style.display == "block") {
+      document.getElementById("panel2").style.display = "none"
+    } else {
+      document.getElementById("panel2").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle3() {
+    if (document.getElementById("panel3").style.display == "block") {
+      document.getElementById("panel3").style.display = "none"
+    } else {
+      document.getElementById("panel3").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle4() {
+    if (document.getElementById("panel4").style.display == "block") {
+      document.getElementById("panel4").style.display = "none"
+    } else {
+      document.getElementById("panel4").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle5() {
+    if (document.getElementById("panel5").style.display == "block") {
+      document.getElementById("panel5").style.display = "none"
+    } else {
+      document.getElementById("panel5").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle6() {
+    if (document.getElementById("panel6").style.display == "block") {
+      document.getElementById("panel6").style.display = "none"
+    } else {
+      document.getElementById("panel6").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle7() {
+    if (document.getElementById("panel7").style.display == "block") {
+      document.getElementById("panel7").style.display = "none"
+    } else {
+      document.getElementById("panel7").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle8() {
+    if (document.getElementById("panel8").style.display == "block") {
+      document.getElementById("panel8").style.display = "none"
+    } else {
+      document.getElementById("panel8").style.display = "block"
+    }      
+  }
+</script>
+<script>
+  function toggle9() {
+    if (document.getElementById("panel9").style.display == "block") {
+      document.getElementById("panel9").style.display = "none"
+    } else {
+      document.getElementById("panel9").style.display = "block"
+    }      
   }
 </script>
 </html>
