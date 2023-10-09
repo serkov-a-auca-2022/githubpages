@@ -92,11 +92,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+#location {
+font-size: 40px;
+}
 
 address {
     color: grey;
 }
-.toggle {
+button .toggle {
     font-size: 20px;
     padding: 10px;
     cursor: pointer;
@@ -108,6 +111,7 @@ address {
     font-size: 25px;
     background-color: rgb(169, 189, 182);
   }
+<<<<<<< HEAD
 .hero {
     background: url("Mysite/img/backgroundImage.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -186,3 +190,14 @@ button:hover {
     width: 40px;
     height: auto;
 }
+=======
+  p.intro{
+    color: rgb(132, 20, 33);
+  }
+  header h1{
+    color: bisque;
+  }
+  /* main button,h2{
+    color: #a7a415;
+  } */
+>>>>>>> 2cf0ce1884c4a486924af01a03207e7da26a0821
