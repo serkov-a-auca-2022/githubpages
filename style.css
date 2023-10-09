@@ -2,6 +2,8 @@ body {
     background: url("Mysite/img/background3.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 .menu{
     list-style-type: none;
@@ -43,6 +45,7 @@ main {
 
 h1 {
     margin: 0;
+    color: white;
 }
 
 .intro {
@@ -60,9 +63,10 @@ h1 {
     color: #500c7e;
 }
 
-h2 , h3, h4, h5, h6{
-    font-size: 40px;
-}
+ h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333; 
+  }
 .design{
     font-size: 25px;
 
@@ -104,3 +108,81 @@ address {
     font-size: 25px;
     background-color: rgb(169, 189, 182);
   }
+.hero {
+    background: url("Mysite/img/backgroundImage.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #268996;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 18px;
+}
+button {
+    padding: 12px 24px;
+    background-color: #268996;
+    color: #fff;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #1a1a5e;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.menu a img {
+    width: 40px;
+    height: auto;
+}
