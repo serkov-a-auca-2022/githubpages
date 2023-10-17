@@ -243,9 +243,8 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    gap: 0; 
+    gap: 20px; 
     text-align: center;
-    padding: 50px;
   }
   
   .choice h2 {
