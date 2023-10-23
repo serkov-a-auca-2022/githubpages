@@ -37,10 +37,14 @@ header {
   color: #fff;
   padding: 10px;
 }
+a {
+  text-decoration: none;
+}
 
 main {
   padding: 20px;
   text-align: center;
+
 }
 
 h1 {
@@ -60,12 +64,11 @@ h1 {
 
 .info {
   font-size: 25px;
-  color: #500c7e;
 }
 
 h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #333; 
+  color: #a17d7d;
   font-size: 40px;
 }
 .design{
@@ -83,6 +86,7 @@ button {
   border: none;
   cursor: pointer;
   margin-top: 20px;
+
 }
 
 button:hover {
@@ -140,12 +144,13 @@ button .toggle {
 
 .hero button {
   padding: 15px 30px;
-  background-color: #268996;
+  background-color: #26899642;
   color: #fff;
   border: none;
   cursor: pointer;
   margin-top: 20px;
   font-size: 18px;
+  display: inline-block;
 }
 button {
   padding: 12px 24px;
@@ -190,9 +195,6 @@ button:hover {
 .menu a img {
   width: 40px;
   height: auto;
-}
-p.intro{
-  color: rgb(132, 20, 33);
 }
 header h1{
   color: bisque;
@@ -259,7 +261,7 @@ header h1{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s;
+  /* transition: transform 0.2s; */
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -268,18 +270,18 @@ header h1{
   padding: 20px;
 }
 
-.choice-item:hover {
+/* .choice-item:hover {
   transform: translateY(-5px);
-}
+} */
 
 .choice h3 {
-  font-size: 24px;
+  font-size: 30px;
   margin-top: 20px;
   color: #333;
 }
 
 .choice-content p {
-  font-size: 18px;
+  font-size: 24px;
   color: #666;
 }
 
