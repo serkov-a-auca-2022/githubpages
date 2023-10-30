@@ -295,3 +295,9 @@ header h1{
   max-width: 40%;
   height: auto;
 }
+.goals{
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+}
+
