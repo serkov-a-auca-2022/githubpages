@@ -1,6 +1,6 @@
 body {
   background: url("Mysite/img/background3.jpg") no-repeat center center fixed;
-  background-size: cover;
+  background-size:cover;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
@@ -9,6 +9,7 @@ body {
   list-style-type: none;
   padding-left: 0;
   margin-left: 0;
+
 }
 .menu a{
   font-size: 20px;
@@ -43,7 +44,7 @@ a {
 }
 
 main {
-  padding: 20px;
+  padding: 0px;
   text-align: center;
 
 }
@@ -58,9 +59,32 @@ h1 {
   font-size: 30px;
 
 }
-.list{
+
+#versions h2 {
+  font-size: 56px;
+  color: #a17d7d;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#versions p{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.list {
   text-align: left;
-  font-size: 35px;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.list li {
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.list strong {
+  font-weight: bold;
 }
 
 .info {
@@ -74,6 +98,11 @@ h2, h3, h4, h5, h6 {
 }
 .design{
   font-size: 25px;
+  padding: 20px;
+}
+
+#designer{
+  background-color: rgba(188, 187, 187, 0.718);
 
 }
 .models{
@@ -87,12 +116,14 @@ button {
   border: none;
   cursor: pointer;
   margin-top: 20px;
-
+  font-size: 18px;
+  display: inline-block;
 }
 
 button:hover {
-  background-color: #a7a415;
+  background-color: #1a1a5e;
 }
+
 
 img {
   max-width: 100%;
@@ -115,7 +146,11 @@ button .toggle {
 .panel, .panel2, .panel3,.panel4, .panel5, .panel6, .panel7, .panel8, .panel9{
   display: none;
   font-size: 25px;
-  background-color: rgb(169, 189, 182);
+  background-color: rgba(169, 189, 182, 0.9); 
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
 .hero {
@@ -139,7 +174,7 @@ button .toggle {
 }
 
 .hero h2 {
-  font-size: 24px;
+  font-size: 34px;
   margin-top: 10px;
 }
 
@@ -253,8 +288,9 @@ header h1{
 .choice h2 {
   font-size: 36px;
   text-align: center;
-  background-color: rgba(128, 128, 128, 0.481);
+  max-size: 800px; 
 }
+
 
 .choice-item {
   display: flex;
@@ -304,3 +340,15 @@ header h1{
 #reversed{
   background-color: rgba(158, 157, 157, 0.562);
 }
+
+.toggle{
+  padding: 15px 30px;
+  background-color: #26899642;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+  display: inline-block;
+}
+
