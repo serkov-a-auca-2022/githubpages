@@ -1,10 +1,12 @@
 body {
-  background: url("Mysite/img/background3.jpg") no-repeat center center fixed;
-  background-size:cover;
+  background-color:white ;
+  background-size: cover;
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  margin: 0 auto;
 }
+
 .menu-container {
   position: relative;
 }
@@ -112,8 +114,7 @@ body {
   }
 }
 
-
-.Home{
+.Home {
   font-size: 30px;
 }
 
@@ -128,6 +129,7 @@ header {
   color: #fff;
   padding: 10px;
 }
+
 a {
   text-decoration: none;
 }
@@ -135,7 +137,6 @@ a {
 main {
   padding: 0px;
   text-align: center;
-
 }
 
 h1 {
@@ -146,58 +147,34 @@ h1 {
 .intro {
   margin-top: 20px;
   font-size: 30px;
-
-}
-
-#versions h2 {
-  font-size: 56px;
-  color: #a17d7d;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#versions p{
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.list {
-  text-align: left;
-  font-size: 24px;
-  margin-top: 20px;
-}
-
-.list li {
-  margin-bottom: 15px;
-  list-style: none;
-}
-
-.list strong {
-  font-weight: bold;
 }
 
 .info {
   font-size: 25px;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Arial, Helvetica, sans-serif;
   color: #a17d7d;
   font-size: 40px;
 }
-.design{
+
+.design {
   font-size: 25px;
   padding: 20px;
 }
 
-#designer{
+#designer {
   background-color: rgba(188, 187, 187, 0.718);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
 
-}
-.models{
-  width: 800px;
-  height: 480px;
-}
 button {
   padding: 15px 30px;
   background-color: #268996;
@@ -213,18 +190,34 @@ button:hover {
   background-color: #1a1a5e;
 }
 
-
 img {
   max-width: 100%;
   height: auto;
 }
+.intro-section{
+  font-size: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
 #location {
-font-size: 40px;
+  font-size: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#owners {
+  font-size: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 address {
   color: grey;
 }
+
 button .toggle {
   font-size: 20px;
   padding: 10px;
@@ -232,10 +225,10 @@ button .toggle {
   background-color: rgb(28, 28, 94);
 }
 
-.panel, .panel2, .panel3,.panel4, .panel5, .panel6, .panel7, .panel8, .panel9{
+.panel {
   display: none;
   font-size: 25px;
-  background-color: rgba(169, 189, 182, 0.9); 
+  background-color: rgba(169, 189, 182, 0.9);
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -255,6 +248,8 @@ button .toggle {
 
 .hero-content {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  padding-top: 250px;
 }
 
 .hero h1 {
@@ -277,36 +272,38 @@ button .toggle {
   font-size: 18px;
   display: inline-block;
 }
+
 button {
   padding: 12px 24px;
   background-color: #268996;
   color: #fff;
   border: none;
-  border-radius: 4px; 
+  border-radius: 4px;
   cursor: pointer;
   font-size: 18px;
-  transition: background-color 0.3s ease; 
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #1a1a5e;
 }
 
-header h1{
+header h1 {
   color: bisque;
 }
-/* main button,h2{
-  color: #a7a415;
-} */
-.MainText{
+
+.MainText {
   margin: 0;
   color: white;
 }
+
 .image-text-section {
   display: flex;
   justify-content: space-between;
   padding: 0px 0;
   background-color: #504b4b59;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .image-text-block {
@@ -320,9 +317,10 @@ header h1{
 }
 
 .image-text-block img {
-  width: 350px; 
-  height: 100%; 
-  max-height: 350px; 
+  width: 350px;
+  height: auto;
+  max-height: 350px;
+  padding: 30px;
 }
 
 .text-block {
@@ -341,16 +339,18 @@ header h1{
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  gap: 20px; 
+  gap: 20px;
   text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .choice h2 {
   font-size: 36px;
   text-align: center;
-  max-size: 800px; 
+  max-width: 800px;
+  margin: 0 auto;
 }
-
 
 .choice-item {
   display: flex;
@@ -358,7 +358,6 @@ header h1{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  /* transition: transform 0.2s; */
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -366,10 +365,6 @@ header h1{
   flex: 1;
   padding: 20px;
 }
-
-/* .choice-item:hover {
-  transform: translateY(-5px);
-} */
 
 .choice h3 {
   font-size: 30px;
@@ -384,24 +379,25 @@ header h1{
 
 .reverse {
   flex-direction: row-reverse;
-  background-color: white; 
+  background-color: white;
 }
 
 .choice-item img {
   max-width: 40%;
   height: auto;
 }
-.goals{
+
+.goals {
   text-decoration: none;
   text-align: center;
   font-size: 40px;
 }
 
-#reversed{
+#reversed {
   background-color: rgba(158, 157, 157, 0.562);
 }
 
-.toggle{
+.toggle {
   padding: 15px 30px;
   background-color: #26899642;
   color: #fff;
