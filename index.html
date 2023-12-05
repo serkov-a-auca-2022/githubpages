@@ -8,24 +8,23 @@
 </head>
 <body>
   <header>
-    <div class="menu-container">
-      <input type="checkbox" id="burger-toggle">
-      <div class="menu">
-        <a href="#"><img class="LogoPorsche" src="Mysite/img/PorscheLogo.jpg" alt="Porsche Logo"></a>
-        <label for="burger-toggle" class="burger">
-          <div class="line"></div>
-          <div class="line"></div>
-          <div class="line"></div>
-        </label>
-        <ul>
-          <li><a href="#Title">Home</a></li>
-          <li><a href="#designer">Designer</a></li>
-          <li><a href="#location">Production</a></li>
-          <li><a href="#owners">Owners</a></li>
-          <li><a href="goals.txt">USP</a></li>
-        </ul>
-      </div>
+    <div id="logo">
+        <img class="LogoPorsche" src="Mysite/img/PorscheLogo.jpg" height="50px" alt="Porsche Logo">
     </div>
+    <div class="burger-menu" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+  </div>
+        <div class="menu">
+        <div class="menu-items">
+        <a class="menu-item" href="#Title">Home</a>
+        <a class="menu-item" href="#designer">Designer</a>
+        <a class="menu-item" href="#location">Production</a>
+        <a class="menu-item" href="#owners">Owners</a>
+        <a class="menu-item" href="goals.txt">USP</a>
+      </div>
+      </div>
     <div id="Title" class="title">
     </div>    
   </header>

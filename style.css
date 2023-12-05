@@ -6,111 +6,78 @@ body {
   line-height: 1.5;
   margin: 0 auto;
 }
-
-.menu-container {
-  position: relative;
-}
-
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-  background-color: #333;
-  color: #fff;
+header {
+  background-color: black;
+  color: white;
   padding: 10px;
+  display: flex;
+  gap: 100px;
+  font-size: 25px;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 
-.menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
+
+.menu-items {
+  display: flex; 
+  padding: 0px 20px;
+  gap: 20px; 
 }
 
-.menu li {
-  margin-right: 20px;
-}
-
-.menu a {
+.menu-item {
   text-decoration: none;
   color: #fff;
-  font-family: sans-serif;
+  font-size: 16px;
+  position: relative;
 }
 
-.menu a img {
-  width: 40px;
-  height: auto;
+.menu-item:hover span {
+background-color: #fff;
+color: #444;
 }
 
-#burger-toggle {
-  display: none;
-}
-
-.burger {
+.burger-menu {
   display: none;
   cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 10px;
 }
 
-.burger .line {
+.burger-menu div {
   width: 30px;
-  height: 4px;
-  background-color: #fff;
+  height: 3px;
+  background-color: white;
   margin: 6px 0;
   transition: 0.4s;
 }
 
-@media (max-width: 768px) {
-  .menu ul {
-    display: none;
-    background: #eee;
-    z-index: 10;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-  }
+.menu {
+  display: flex;
+  gap: 100px;
+}
 
-  #burger-toggle:checked + .menu-container .menu ul {
-    display: flex;
-    flex-direction: column;
-  }
+.menu-items {
+  display: flex;
+  gap: 20px;
+}
 
-  .menu li {
-    display: block;
-    padding: 15px;
-    border-bottom: 1px solid #ccc;
-    margin-right: 0;
-  }
-
-  #burger-toggle:checked + .menu-container .burger .line:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  #burger-toggle:checked + .menu-container .burger .line:nth-child(2) {
-    opacity: 0;
-  }
-
-  #burger-toggle:checked + .menu-container .burger .line:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-
-  #burger-toggle:checked + .menu-container .burger {
-    display: block;
+@media only screen and (max-width: 768px) {
+  .burger-menu {
+      display: block;
   }
 
   .menu {
-    flex-direction: column;
-    align-items: flex-start;
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: black;
+      padding: 20px;
   }
 
-  #burger-toggle {
-    display: block;
+  .menu.show {
+      display: flex;
   }
 }
 
@@ -127,7 +94,7 @@ body {
 header {
   background-color: #333;
   color: #fff;
-  padding: 10px;
+  padding: 0px;
 }
 
 a {
@@ -190,10 +157,6 @@ button:hover {
   background-color: #1a1a5e;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 .intro-section{
   font-size: 40px;
   max-width: 1000px;
